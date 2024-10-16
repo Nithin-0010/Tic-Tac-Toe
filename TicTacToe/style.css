@@ -1,0 +1,86 @@
+body {
+    background-color: #dad7cd;
+}
+
+.main-head {
+    color: #344e41;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.container-main {
+    margin: auto;
+    width: 80vmin;
+    height: 80vmin;
+}
+
+.container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: .5em;
+}
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin: 12em;
+}
+
+.msg-container p {
+    color: #344e41;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.btn {
+    width: 20vmin;
+    height: 20vmin;
+    background-color: #a3b18a;
+    color: #344e41;
+    font-size: 5em;
+    border-radius: .1em;
+    border: none;
+}
+
+.btnChange {
+    width: 20vmin;
+    height: 20vmin;
+    background-color: #bfc4ac;
+    color: #344e41;
+    font-size: 5em;
+    border-radius: .1em;
+    border: none;
+}
+
+.resetBtn {
+    width: 25vmin;
+    height: 6vmin;
+    font-size: 1em;
+    margin-top: 1.2em;
+    border-radius: .5em;
+    background-color: #344e41;
+    color: #a3b18a;
+}
+
+.btn:hover {
+    background-color: #bfc4ac;
+}
+
+.resetBtn:hover {
+    background-color: #3a5a40;
+    color: black;
+}
+
+.color {
+    color: #b44418;
+}
+
+.hide {
+    display: none;
+}
